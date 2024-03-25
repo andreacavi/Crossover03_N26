@@ -1,0 +1,92 @@
+.footer_container {
+  padding: 0 6%;
+  max-width: 140rem;
+  margin: 0 auto;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  .link_container {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 10rem;
+    .link_card {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin-bottom: 0.8rem;
+      }
+      .link {
+        text-decoration: none;
+        color: gray;
+      }
+      .link:hover {
+        color: #36a18b;
+      }
+    }
+  }
+  .app_container {
+    display: flex;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 8rem;
+    margin: 0 auto;
+    .app_textbox {
+      font-size: 1.5rem;
+      max-width: 32rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      h2 {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      p {
+        color: rgb(87, 87, 87);
+        line-height: 2.2rem;
+      }
+      .app_buttons {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+  }
+}
+.extra_footer {
+  background-color: #36a18b;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .bottom_links {
+    display: flex;
+    gap: 4rem;
+    .bottom_link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .bottom_extra {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    .bottom_link {
+      color: white;
+      text-decoration: none;
+    }
+    button {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.8rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 7px;
+      background-color: #e8f2ee;
+    }
+  }
+}
