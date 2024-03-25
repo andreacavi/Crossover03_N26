@@ -1,0 +1,142 @@
+.manage-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+
+.manage-h2 {
+    margin-bottom: 20px;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.manage-textbox {
+    flex: 1 1 50%; 
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 15%;
+}
+
+.manage-p {
+    font-size: 1.7em;
+    line-height: 1.8em;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.manage-textbox {
+    flex: 1 1 50%; 
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 39px;
+  }
+
+.manage-text {
+    padding: 3em;
+}
+
+.manage-text-h2 {
+    padding: 8.5em;
+}
+
+.manage-img {
+    flex: 1 1 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+/* Section Budgeting */
+
+.manage-budgeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(72,172,152);
+  }
+  
+#manage-first-h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
+  }
+  
+#manage-budgeting-button {
+    padding: 1em 1em;
+    font-size: 1.5em;
+    font-weight: 500;
+    border: none;
+    color: rgb(71, 127, 130);
+    background-color: rgb(209, 230, 225);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+#manage-budgeting-button:hover {
+    background-color: white;
+  }
+
+  /* Section Push Notification */
+  
+  .manage-push-notification {
+    background-color: rgb(242, 242, 242);
+  }
+
+  #push-notification-button {
+    font-size: 1.7em;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #push-notification-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Limits */
+  
+  .manage-limits {
+    background-color: rgb(234, 238, 242);
+    padding: 5em;
+  }
+ 
+  /* Section Spending */
+  
+  .manage-spending {
+    background-color: rgb(241, 235, 224);
+  }
+  
+  /* Section Spaces */
+  
+  .manage-spaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 4em;
+    margin: auto;
+  }
+
+  
+  @media screen and (max-width: 770px) {
+    .manage-textbox {
+      flex-basis: 100%; 
+      max-width: 100%; 
+      order: 2; 
+    }
+  
+    .manage-img {
+      flex-basis: 100%; 
+      max-width: 100%; 
+      order: 1;
+    }
+  }
+    
