@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        {/* <Route path="/" element={<Landing />} /> */}
+        {/* <Route path="/test" element={<Landing />} /> */}
         <Route path="/" element={<Accounts />} />
         <Route path="/manage" element={<Manage />} />
       </Routes>
