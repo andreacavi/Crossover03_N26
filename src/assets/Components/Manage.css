@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(100, 170, 153);
+    background-color: rgb(72,172,152);
   }
   
   .manage-budgeting-textbox {
@@ -16,9 +16,11 @@
   }
   
   .manage-budgeting-textbox h2 {
-    font-size: 3em;
     color: white;
     margin-bottom: 16px;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
   }
   
   .manage-budgeting-textbox button {
@@ -65,18 +67,22 @@
   }
   
   .manage-push-notification-textbox h2{
-    font-size: 3em;
     margin-bottom: 16px;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
   }
   
   .manage-push-notification-textbox p{
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin-bottom: 16px;
+    font-size: 1.7em;
+    line-height: 1.8em;
+    font-weight: 100;
+    margin-bottom: 20px;
   }
   
   .manage-push-notification-textbox button {
-    font-weight: 800;
+    font-size: 1.7em;
+    font-weight: 600;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -121,13 +127,16 @@
   }
   
   .manage-limits-textbox h2{
-    font-size: 3em;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
     margin-bottom: 16px;
   }
   
   .manage-limits-textbox p{
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.7em;
+    line-height: 1.8em;
+    font-weight: 100;
   }
   
   /* Section Spending */
@@ -153,13 +162,16 @@
   }
   
   .manage-spending-textbox h2{
-    font-size: 3em;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
     margin-bottom: 16px;
   }
   
   .manage-spending-textbox p{
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.7em;
+    line-height: 1.8em;
+    font-weight: 100;
   }
   
   .manage-spending video  {
@@ -188,13 +200,16 @@
   }
   
   .manage-spaces-textbox h2{
-    font-size: 3em;
+    font-size: 3.6em;
+    font-weight: 500;
+    line-height: 1.2em;
     margin-bottom: 16px;
   }
   
   .manage-spaces-textbox p{
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.7em;
+    line-height: 1.8em;
+    font-weight: 100;
   }
   
   .manage-spaces img  {
