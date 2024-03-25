@@ -5,11 +5,13 @@ export default function Navbar() {
   return (
     <nav className={styles.nav_container}>
       <div className={styles.nav_logo_lang}>
-        <img
-          className={styles.logo}
-          src="https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg"
-          alt="logo"
-        />
+        <NavLink to="/">
+          <img
+            className={styles.logo}
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg"
+            alt="logo"
+          />
+        </NavLink>
         <img
           className={styles.flag}
           src="../public/germany-svgrepo-com.svg"
@@ -18,7 +20,7 @@ export default function Navbar() {
         <div className={styles.nav_language}>EN</div>
       </div>
       <div className={styles.nav_links}>
-        <NavLink to="/accounts" className={styles.nav_link}>
+        <NavLink to="/" className={styles.nav_link}>
           Accounts
         </NavLink>
         <NavLink to="/manage" className={styles.nav_link}>

@@ -24,7 +24,7 @@
     display: flex;
     gap: 1rem;
     .nav_link {
-      color: black;
+      color: #232323;
       text-decoration: none;
       padding: 0.6rem;
       border-radius: 5px;
