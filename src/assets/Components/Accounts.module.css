@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 720px;
+}
+
+.leftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  background-color: #46ac98;
+  text-align: left;
+  color: white;
+  padding-left: 6rem;
+}
+
+.HeadingOne {
+  font-size: 48px;
+  width: 400px;
+  font-weight: 300;
+}
+
+.imageContainerOne {
+  width: 50%;
+  background-image: url(https://images.ctfassets.net/q33z48p65a6w/7u3rQK3Vwj0lwRoL3JUcj4/d63c291784f914f123a03ac7268cf2eb/EN.png?fit=fill&fm=webp&q=80&w=1300);
+  background-size: cover;
+}
+
+.content {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content > * {
+  max-width: 450px;
+}
+
+.btn {
+  height: 3rem;
+  color: #48ac98;
+  background-color: white;
+  border-color: white;
+  border-radius: 5px;
+  height: 48px;
+  width: 200px;
+  border-style: none;
+}
+
+.imageContainer {
+  width: 50%;
+  background-image: url(https://images.ctfassets.net/q33z48p65a6w/5YhXhwLSpUXCeDifZF9rsu/dbf7763a8d98dd0f106a22fde477f076/CRST-3373_Instant_Savings_Launch_in_RoE_Web_Account_pages_textmedia_01-background_1400x1050_EN.png?fit=fill&fm=webp&q=80&w=1800);
+  background-size: cover;
+}
+
+.ContainerSectionTwo {
+  height: 540px;
+  display: flex;
+}
+
+.RightSectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+}
+
+.RightSectionTwo > * {
+  max-width: 500px;
+  margin-left: 40px;
+}
+
+.HeadingTwo {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 432px;
+  gap: 20px;
+}
+
+.GridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GridImage {
+  width: 50px;
+  height: 50px;
+}
+
+.gridHeading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.gridParagraph {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.containerColumn {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerColumn > * {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  max-width: 800px;
+}
+
+.btn2 {
+  background-color: #46ac98;
+  color: white;
+  height: 48px;
+  border-radius: 5px;
+  font: 18px;
+  width: 196px;
+  border-style: none;
+  border-color: #46ac98;
+}
+
+.BackgroundPink {
+  background-color: #f2e7e8;
+}
